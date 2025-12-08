@@ -3,11 +3,6 @@ import React, { useState, useEffect } from "react";
 function Header() {
   const [open, setOpen] = useState(false);
 
-  // Fermer le menu mobile lors du clic sur un lien
-  const handleLinkClick = () => {
-    setOpen(false);
-  };
-
   // Fermer le menu mobile lors du resize vers desktop
   useEffect(() => {
     const handleResize = () => {
