@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+import {  useState, useEffect } from "react";
 
 function Header() {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
 
   // Fermer le menu mobile lors du clic sur un lien
   const handleLinkClick = () => {
     setOpen(false);
   };
 
-  // Fermer le menu mobile lors du resize vers desktop et gérer le scroll
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
