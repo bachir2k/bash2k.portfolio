@@ -40,7 +40,7 @@ function About() {
 
                 {/* Compétences */}
                 <div className="" id="skills"></div>
-                <div  className=" backdrop-blur-md mt-50 rounded-3xl p-8 shadow-xl mb-16">
+                <div  className=" backdrop-blur-md mt-40 rounded-3xl p-8 shadow-xl mb-16">
                     <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">Mes Compétences</h2>
                     <div className="w-24 h-1 bg-[#f9004d] mx-auto mb-8"></div>
 

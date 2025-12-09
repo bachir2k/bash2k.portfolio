@@ -106,7 +106,7 @@ function Contact() {
     };
 
     return (
-        <div id='contact' className="min-h-screen mt-20 py-20 px-4">
+        <div id='contact' className="min-h-screen py-20 px-4">
             <div className="max-w-6xl mx-auto">
                 {/* Titre */}
                 <div className="text-center mb-16">
